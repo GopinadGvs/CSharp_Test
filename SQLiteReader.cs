@@ -53,3 +53,19 @@ namespace CSharp_Test
         }
     }
 }
+
+// SELECT * FROM SheetInfo
+
+// SELECT SheetName FROM SheetInfo
+
+// SELECT * FROM SheetInfo WHERE SheetName = 'A0'
+
+// SELECT count(*) FROM SheetInfo;
+
+// SELECT MIN(SheetWidth) AS MinWidth FROM SheetInfo;
+
+// INSERT INTO SheetInfo (SheetName, SheetWidth) VALUES ('A3', 40);
+
+// UPDATE SheetInfo SET SheetWidth = 25 WHERE SheetName = 'A1';
+
+// DELETE FROM SheetInfo WHERE SheetName = 'A2';
