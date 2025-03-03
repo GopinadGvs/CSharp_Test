@@ -67,6 +67,7 @@
   <ItemGroup>
     <Compile Include="JSONSerialization.cs" />
     <Compile Include="LogWriter.cs" />
+    <Compile Include="MultiThreading.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SheetConfig.cs" />

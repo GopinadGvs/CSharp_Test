@@ -17,9 +17,12 @@ namespace CSharp_Test
     {
         static void Main(string[] args)
         {
-            XMLSerialization.TestXMLSerialization();
-            JSONSerialization.TestJSONSerialization();
-            SQLiteReader.TestSQLiteReader();
+            //XMLSerialization.TestXMLSerialization();
+            //JSONSerialization.TestJSONSerialization();
+            //SQLiteReader.TestSQLiteReader();
+
+            //MultiThreading.MultiThreadingTest();
+            MultipleThreads.MultipleThreadsTest();
         }
     }
 }
